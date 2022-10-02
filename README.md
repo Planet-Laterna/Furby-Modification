@@ -4,12 +4,11 @@ Current project is based on 2 really good tutorials [Furby Modification](https:/
 
 # Scope of this project
 
-This Project is implemented and tested using an Arduino Mega/Uno board, but should work also for ESP32 ones. You would need to change used GPIOs in [Arduino Code](https://github.com/monoapp3/furby_modification/blob/main/controller_no_rtos.ino/controller_no_rtos.ino.ino "Controller Code")
-
+This Project is implemented and tested using an Arduino Mega/Uno board, but should work also for ESP32 ones. You would need to change used GPIOs in [Arduino Code](https://github.com/Planet-Laterna/Furby-Modification/blob/main/controller_no_rtos.ino/controller_no_rtos.ino.ino "Controller Code")
 
 Following features are implemented as of now 
 
-- Furby can be controlled by Serial Interface. Refer to [Python Script](https://github.com/monoapp3/furby_modification/blob/main/python_scripts/furby_controller.py "Code Send Commands") in order to send a command.
+- Furby can be controlled by Serial Interface. Refer to [Python Script](https://github.com/Planet-Laterna/Furby-Modification/blob/main/python_scripts/furby_controller.py "Code Send Commands") in order to send a command.
 
 - Furby's mouth movement can be controlled
 - Furby's eyes can be controller
@@ -48,8 +47,8 @@ Software Modification logic is described [Furby Software Basics](https://create.
 - Planet Laterna Mini RGB LED strips.
 [You can find it](https://de.aliexpress.com/store/1100075030?spm=a2g0o.detail.1000007.1.37f5345aLXupDC "Thin LED Strip")
 - Connectors
-- Furby's serial controller code. [Arduino Code](https://github.com/monoapp3/furby_modification/blob/main/controller_no_rtos.ino/controller_no_rtos.ino.ino "Controller Code")
-- PC client Script. [Python Script](https://github.com/monoapp3/furby_modification/blob/main/python_scripts/furby_controller.py "Code Send Commands")
+- Furby's serial controller code. [Arduino Code](https://github.com/Planet-Laterna/Furby-Modification/blob/main/controller_no_rtos.ino/controller_no_rtos.ino.ino "Controller Code")
+- PC client Script. [Python Script](https://github.com/Planet-Laterna/Furby-Modification/blob/main/python_scripts/furby_controller.py "Code Send Commands")
 
 This is an open source project, please feel free to add modifications by creating a pull request or fork.
 
